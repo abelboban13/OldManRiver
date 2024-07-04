@@ -2961,3 +2961,236 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.04-22.05.17:396][759]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/NewMap0.NewMap0:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0
 [2024.07.04-22.05.17:396][759]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/NewMap0.NewMap0:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0
 [2024.07.04-22.05.17:396][759]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/NewMap0.NewMap0:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0
+[2024.07.04-22.08.01:904][364]LogAssetRegistry: Display: Package D:/FP/OldManRiver/OldManRiver/OldManRiver/Content/Example/Maps/Mountain.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2024.07.04-22.08.46:960][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.07.04-22.08.46:962][706]LogAssetEditorSubsystem: Opening Asset editor for World /Game/NewMap0.NewMap0
+[2024.07.04-22.08.46:962][706]Cmd: MAP LOAD FILE="../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/NewMap0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.07.04-22.08.46:962][706]LightingResults: New page: Lighting Build
+[2024.07.04-22.08.46:962][706]LoadErrors: New page: Loading map: NewMap0.umap
+[2024.07.04-22.08.47:010][706]LogWorld: UWorld::CleanupWorld for NewMap0, bSessionEnded=true, bCleanupResources=true
+[2024.07.04-22.08.47:010][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-22.08.47:012][706]LogContentBundle: [NewMap0(Standalone)] Deleting container.
+[2024.07.04-22.08.47:012][706]MapCheck: New page: Map Check
+[2024.07.04-22.08.47:012][706]LightingResults: New page: Lighting Build
+[2024.07.04-22.08.47:020][706]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.04-22.08.47:029][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.07.04-22.08.47:038][706]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap0'.
+[2024.07.04-22.08.47:039][706]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-22.08.47:039][706]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.04-22.08.47:039][706]LogAIModule: Creating AISystem for world NewMap0
+[2024.07.04-22.08.47:040][706]LogWorldPartition: ULevel::OnLevelLoaded(NewMap0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.07.04-22.08.47:040][706]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.07.04-22.08.47:040][706]LogWorldPartition: UWorldPartition::Initialize : World = NewMap0, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.07.04-22.08.47:257][706]LogContentBundle: [NewMap0(Standalone)] Creating new contrainer.
+[2024.07.04-22.08.47:257][706]LogWorldPartition: Display: WorldPartition initialize took 216 ms (total: 632 ms)
+[2024.07.04-22.08.47:636][706]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.07.04-22.08.47:643][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.07.04-22.08.47:644][706]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.07.04-22.08.47:644][706]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.551ms to complete.
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: ================================================
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Total job queries 116, among them cache hits 8 (6.90%)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Tracking 108 distinct input hashes that result in 108 distinct outputs (100.00%)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: RAM used: 4.21 MiB of 1.60 GiB budget. Usage: 0.26%
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Shaders Compiled: 108
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Jobs assigned 108, completed 108 (100%)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Average time worker was idle: 51.63 s
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Time job spent in pending queue: average 2.64 s, longest 19.30 s
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Job execution time: average 13.40 s, max 18.94 s
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Job life time (pending + execution): average 16.04 s, max 20.92
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Shader code size: average 61.017 KiB, min 4.008 KiB, max 86.191 KiB
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 22.69 s
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Jobs were issued in 30 batches (only local compilation was used), average 3.60 jobs/batch
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Average processing rate: 4.76 jobs/sec
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Total thread time: 159.336 s
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Total thread preprocess time: 3.363 s
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Percentage time preprocessing: 2.11%
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Effective parallelization: 7.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled   96 times, average 1.63 sec, max 4.10 sec, min 0.97 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.28 sec, max 0.30 sec, min 0.26 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.25 sec, max 0.27 sec, min 0.23 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.23 sec, max 0.27 sec, min 0.21 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                             FDeferredLightPS - 98.34% of total time (compiled   96 times, average 1.63 sec, max 4.10 sec, min 0.97 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 0.52% of total time (compiled    3 times, average 0.28 sec, max 0.30 sec, min 0.26 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.44% of total time (compiled    3 times, average 0.23 sec, max 0.27 sec, min 0.21 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.31% of total time (compiled    2 times, average 0.25 sec, max 0.27 sec, min 0.23 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 0.17% of total time (compiled    2 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.07.04-22.08.47:802][706]LogShaderCompilers: Display: ================================================
+[2024.07.04-22.09.03:192][488]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.07.04-22.09.03:192][488]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.07.04-22.09.17:117][ 81]Cmd: DELETE
+[2024.07.04-22.09.17:118][ 81]Cmd: ACTOR DELETE
+[2024.07.04-22.09.17:120][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:135][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:148][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:162][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:177][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:189][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:201][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:213][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:224][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:235][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:246][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:257][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:267][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:278][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:288][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:298][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:308][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:317][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:329][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:339][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:349][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:356][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:365][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:374][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:382][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:391][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:398][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:406][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:412][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:420][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:427][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:434][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:441][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:447][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:455][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:461][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:466][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:472][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:478][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:483][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:487][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:493][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:498][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:505][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:510][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:514][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:519][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:523][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:527][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:531][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:535][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:539][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:543][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:546][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:550][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:553][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:556][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:560][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:562][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:564][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:566][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:569][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:572][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:574][ 81]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.07.04-22.09.17:581][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.07.04-22.09.17:582][ 81]LogEditorActor: Deleted 64 Actors (0.465 secs)
+[2024.07.04-22.09.17:644][ 81]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2024.07.04-22.09.19:882][342]Cmd: DELETE
+[2024.07.04-22.09.19:883][342]Cmd: ACTOR DELETE
+[2024.07.04-22.09.19:889][342]LogEditorActor: Deleted Actor: Landscape
+[2024.07.04-22.09.19:893][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2024.07.04-22.09.19:896][342]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2024.07.04-22.09.21:833][573]Cmd: DELETE
+[2024.07.04-22.09.21:833][573]Cmd: ACTOR DELETE
+[2024.07.04-22.09.21:834][573]LogEditorActor: Cannot delete actor WorldDataLayers /Game/NewMap0.NewMap0:PersistentLevel.WorldDataLayers: Actor is not user managed
+[2024.07.04-22.09.21:838][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.07.04-22.09.21:841][573]LogEditorActor: Deleted 0 Actors (0.007 secs)
+[2024.07.04-22.09.23:693][794]Cmd: DELETE
+[2024.07.04-22.09.23:693][794]Cmd: ACTOR DELETE
+[2024.07.04-22.09.23:693][794]LogEditorActor: Cannot delete actor WorldPartitionMiniMap /Game/NewMap0.NewMap0:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927: Actor is not user managed
+[2024.07.04-22.09.23:698][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.07.04-22.09.23:699][794]LogEditorActor: Deleted 0 Actors (0.006 secs)
+[2024.07.04-22.09.23:863][814]Cmd: DELETE
+[2024.07.04-22.09.23:863][814]Cmd: ACTOR DELETE
+[2024.07.04-22.09.23:863][814]LogEditorActor: Cannot delete actor WorldPartitionMiniMap /Game/NewMap0.NewMap0:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927: Actor is not user managed
+[2024.07.04-22.09.23:869][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.07.04-22.09.23:870][814]LogEditorActor: Deleted 0 Actors (0.006 secs)
+[2024.07.04-22.09.25:498][  1]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.07.04-22.12.22:651][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.07.04-22.12.24:446][ 69]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.04-22.12.24:464][ 69]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewMap0_HLOD0_Instancing.NewMap0_HLOD0_Instancing
+	Asset Type: HLODLayer
+[2024.07.04-22.12.24:613][ 69]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2024.07.04-22.12.24:672][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.07.04-22.12.24:679][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.07.04-22.12.24:683][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2024.07.04-22.12.26:231][254]LogObjectTools: Deleting 1 worlds: /Game/NewMap0.NewMap0
+[2024.07.04-22.12.26:231][254]LogObjectTools: Currently 2 active worlds: /Game/NewMap0.NewMap0, /Engine/Transient.World_0
+[2024.07.04-22.12.27:793][254]LogSlate: Window 'Unable to delete level' being destroyed
+[2024.07.04-22.12.27:809][254]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2024.07.04-22.12.30:111][468]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.07.04-22.12.30:119][468]LogContentBrowser: Creating deferred item: NewWorld
+[2024.07.04-22.12.30:129][469]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.07.04-22.12.38:250][443]LogContentBrowser: Attempting asset rename: NewWorld -> OldManRiver
+[2024.07.04-22.12.38:251][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-22.12.38:251][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.04-22.12.38:253][443]LogContentBrowser: End creating deferred item NewWorld
+[2024.07.04-22.12.39:791][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.07.04-22.12.41:708][624]LogSlate: Window 'Save Content' being destroyed
+[2024.07.04-22.12.41:732][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.04-22.12.41:787][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.07.04-22.12.41:793][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.07.04-22.12.41:799][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.07.04-22.12.41:814][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap0" FILE="../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/NewMap0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.04-22.12.41:823][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.07.04-22.12.41:828][624]LogSavePackage: Moving output files for package: /Game/NewMap0
+[2024.07.04-22.12.41:828][624]LogSavePackage: Moving '../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Saved/NewMap02559A0F0452BAF5C61466DAC6F6ACCA4.tmp' to '../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/NewMap0.umap'
+[2024.07.04-22.12.41:829][624]LogFileHelpers: All files are already saved.
+[2024.07.04-22.12.41:833][624]LogFileHelpers: Saving map 'NewMap0' took 0.019
+[2024.07.04-22.12.41:833][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OldManRiver" FILE="../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/OldManRiver.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.04-22.12.41:838][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.07.04-22.12.41:841][624]LogSavePackage: Moving output files for package: /Game/OldManRiver
+[2024.07.04-22.12.41:841][624]LogSavePackage: Moving '../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Saved/OldManRiver48A2263E46E097ED252227853A83B34E.tmp' to '../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/OldManRiver.umap'
+[2024.07.04-22.12.41:847][624]LogFileHelpers: Saving map 'OldManRiver' took 0.014
+[2024.07.04-22.12.41:857][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 1.12 sec)
+[2024.07.04-22.12.41:857][624]LogAssetEditorSubsystem: Opening Asset editor for World /Game/OldManRiver.OldManRiver
+[2024.07.04-22.12.41:857][624]Cmd: MAP LOAD FILE="../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/OldManRiver.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.07.04-22.12.41:857][624]LightingResults: New page: Lighting Build
+[2024.07.04-22.12.41:857][624]LoadErrors: New page: Loading map: OldManRiver.umap
+[2024.07.04-22.12.41:887][624]LogWorld: UWorld::CleanupWorld for NewMap0, bSessionEnded=true, bCleanupResources=true
+[2024.07.04-22.12.41:887][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-22.12.41:887][624]LogContentBundle: [NewMap0(Standalone)] Deleting container.
+[2024.07.04-22.12.41:887][624]MapCheck: New page: Map Check
+[2024.07.04-22.12.41:887][624]LightingResults: New page: Lighting Build
+[2024.07.04-22.12.41:890][624]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.04-22.12.41:894][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.07.04-22.12.41:896][624]LogWorld: UWorld::CleanupWorld for OldManRiver, bSessionEnded=true, bCleanupResources=true
+[2024.07.04-22.12.41:896][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-22.12.41:901][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.07.04-22.12.41:904][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.07.04-22.12.41:906][624]LogAudio: Display: Audio Device (ID: 1) registered with world 'OldManRiver'.
+[2024.07.04-22.12.41:906][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-22.12.41:906][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.04-22.12.41:907][624]LogAIModule: Creating AISystem for world OldManRiver
+[2024.07.04-22.12.41:927][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.07.04-22.12.41:930][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.07.04-22.12.41:933][624]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.07.04-22.12.41:933][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.06ms to complete.
+[2024.07.04-22.12.41:936][624]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.04-22.12.41:936][624]LogContentValidation: Display: Validating /Script/Engine.World /Game/OldManRiver.OldManRiver
+[2024.07.04-22.12.44:771][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-22.12.44:771][952]LogWorldPartition: ULevel::OnLevelLoaded(NewMap0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.07.04-22.12.44:771][952]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.07.04-22.12.44:771][952]LogWorldPartition: UWorldPartition::Initialize : World = NewMap0, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.07.04-22.12.44:773][952]LogContentBundle: [NewMap0(Standalone)] Creating new contrainer.
+[2024.07.04-22.12.44:773][952]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 634 ms)
+[2024.07.04-22.12.44:773][952]LogObjectTools: Deleting 1 worlds: /Game/NewMap0.NewMap0
+[2024.07.04-22.12.44:773][952]LogObjectTools: Currently 2 active worlds: /Game/OldManRiver.OldManRiver, /Engine/Transient.World_0
+[2024.07.04-22.12.44:778][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.07.04-22.12.51:580][952]LogSlate: Window 'Delete Assets' being destroyed
+[2024.07.04-22.12.51:587][952]LogWorld: UWorld::CleanupWorld for NewMap0, bSessionEnded=true, bCleanupResources=true
+[2024.07.04-22.12.51:587][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-22.12.51:587][952]LogContentBundle: [NewMap0(Standalone)] Deleting container.
+[2024.07.04-22.12.53:593][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.07.04-22.12.53:597][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.07.04-22.12.53:600][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.07.04-22.12.53:620][952]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/NewMap0 does not exist, will not scan.
+[2024.07.04-22.12.53:945][991]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/NewMap0 does not exist, will not scan.
+[2024.07.04-22.12.53:954][992]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/NewMap0 does not exist, will not scan.
