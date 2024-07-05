@@ -1597,3 +1597,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.05-00.04.13:616][752]Cmd: MAP CHECKDEP NOCLEARLOG
 [2024.07.05-00.04.13:616][752]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
 [2024.07.05-00.07.07:927][589]LogDerivedDataCache: C:/Users/Kengan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:31.610 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 48647 files in 48091 folders with total size 8640 MiB.
+[2024.07.05-00.16.41:780][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2024.07.05-00.16.55:197][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-00.16.55:263][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OldManRiver" FILE="../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/OldManRiver.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.05-00.16.56:452][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.07.05-00.16.56:461][ 71]LogPackageLocalizationCache: Processed 55 localized package path(s) for 1 prioritized culture(s) in 0.005609 seconds
+[2024.07.05-00.16.56:714][ 71]LogSavePackage: Moving output files for package: /Game/OldManRiver
+[2024.07.05-00.16.56:714][ 71]LogSavePackage: Moving '../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Saved/OldManRiverF0F3B42646FB622AAA3AF2B70FB2F547.tmp' to '../../../../../FP/OldManRiver/OldManRiver/OldManRiver/Content/OldManRiver.umap'
+[2024.07.05-00.16.56:721][ 71]LogFileHelpers: Saving map 'OldManRiver' took 1.459
+[2024.07.05-00.16.56:732][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.53 sec
+[2024.07.05-00.16.56:735][ 71]AssetCheck: New page: Asset Save: OldManRiver
+[2024.07.05-00.16.56:735][ 71]LogContentValidation: Display: Validating /Script/Engine.World /Game/OldManRiver.OldManRiver
